@@ -1,0 +1,18 @@
+body{
+    width: 1500vw;
+    margin: 0%;
+}
+
+#cabecera{
+    height: 50px;
+    width: 100vw;
+    background: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tlf{
+    color: white;
+    
+}
