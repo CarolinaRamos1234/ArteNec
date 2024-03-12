@@ -1,0 +1,61 @@
+body {
+    width: 100vw;
+    margin: 0%;
+    background: black;
+    font-family: Catellos;
+    color:white;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+}
+
+#logfor{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.Contfoto {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#Logo {
+    width: 400px;
+    height: 400px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    width: 200px;
+    margin-top: 5px;
+}
+input {
+    text-align: center;
+}
+#text{
+    width: 600px;
+    height: 50px;
+}
+header{
+    font-size: 50px;
+}
+.boton{
+    color: red
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/contact.css">
+    <script src="./src/script.js"></script>
+    <title>Document-Artenec</title>
+</head>
+
+<body>
+<div>
+    <h1>Contact...</h1>
+    <p>Si desea hacernos alguna pregunta, tiene alguna duda o simplemente desea comentarnos algo no dude en contactar con
+    nosotros.</p>
+    <p>¿Eres Artista? quieres ser parte de nuestro equipo y vender tus obras en nuestra web, háznoslo saber.</p>
+    <p>Por favor, rellena este formulario adjunto, enviándonos un correo electrónico y nuestro equipo estará encantado de
+    atenderle.</p>
+</div>
+<div id="logfor">
+    <div class="Contfoto">
+        <img id="Logo" src="/assets/logo.jpg" alt="Logo">
+    </div>
+    <div>
+        <form action="/contact/envioform.html" method="get">
+            <div><label>
+                    Nombre
+                    <input type=”text”><br>
+            </div></label>
+            <div><label>
+                    Apellidos
+                    <input type=”text”><br>
+                </label>
+            </div>
+            <div><label>
+                    Email
+                    <input type="email"><br>
+                </label></div>
+            <div><label>
+                    Teléfono
+                    <input type="tel"><br>
+                </label></div>
+            <div><label>Tipo de Consulta</label>
+                <select>
+                        <option value="Consulta varias">Consulta varias</option>
+                        <option value="Pedido realizado">Pedido realizado</option>
+                        <option value="Artista Nuevo">Artista Nuevo</option>
+                        <option value="Encargo exclusivo para artista">Encargo exclusivo para artista</option> 
+                        
+                    </select></label>
+            <div><label>Artistas</label>
+                <select>
+                    <option value="No procede">No procede</option>
+                    <option value="Eva Santana Suárez">Eva Santana Suárez</option>
+                    <option value="Nieves García Sánchez">Nieves García Sánchez</option>
+                    <option value="Saúl Santos">Saúl Santos</option>
+                    </select></label>
+            <div><label>Comentarios</label>
+                <textarea id="text"></textarea>
+            </div><br>
+            <input type="checkbox" name="agreement" />
+            I agree to the <a href="/contact/Terms.html" class="boton" target="_blank">terms and conditions</a>
+            <div><button type="submit">Sign up</button></div>
+        </form>
+    </div>
+</div>
+
+
+</body>
