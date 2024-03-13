@@ -1,7 +1,7 @@
 body{
     width: 100vw;
     margin: 0%;
-    background:black;
+   background-color: black;
     font-family: Catellos;
 }
 #cabecera{
@@ -29,15 +29,6 @@ body{
         font-family: Catellos;
 }
 
-.tlf{
-    height: 5vw;
-        width: 15vw;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin-left: 10px;
-        font-family: Catellos;
-}
 .email {
     display:flex;
     justify-content: space-between;
@@ -63,17 +54,20 @@ body{
 
 }
 .cuenta{
-    display: flex;
-        justify-content: right;
+    width: 150px;
+        height: auto;
+        display: flex;
         align-items: center;
-        margin-left: 400px;
+        margin-left: 100px;
         font-family: Catellos;
 }
 
 .carrito{
+    width: 70px;
     display: flex;
         justify-content: space-between;
         align-items: center;
+    
 
 }
 #lg {
@@ -85,7 +79,7 @@ body{
 #imgmain {
     width: 100vw;
     height: 65vw;
-    justify-content:center;5
+    justify-content:center;
 }
 .descripcion{
     width: 100vw;
@@ -97,63 +91,93 @@ body{
     top: 0px;
     font-family: Catellos;
 }
+.tTienda{
+    color: rgb(237, 192, 237);
+}
+.tArt{
+    color: rgb(237, 192, 237);
+}
 .artistas{
     color: white;
     text-align: center;
     font-family: Catellos;
     margin-left: 50px;
 }
+#fArt1 {
+    width: 20vw;
+    height: auto;
+    margin-bottom: 3%;
+    margin-left: 10%;
+}
+
+#fArt2 {
+    width: 20vw;
+    height: auto;
+    margin-left: 10%;
+}
+
+#fArt3 {
+    width: 20vw;
+    height: 15vw;
+    margin-left: 15%;
+}
+.tNieves{
+    color: rgb(237, 192, 237);
+    font-size: larger;
+}
+.tEva {
+    color: rgb(237, 192, 237);
+    font-size: larger;
+}
+.tSaúl {
+    color: rgb(237, 192, 237);
+    font-size: larger;
+}
 #autor1{
     color: white;
     font-family: Catellos;
+    text-align:justify;
         margin-left: 50px;
+        margin-bottom: 40px;
+        width: 80vw;
 }
 #autor2{
     color: white;
     font-family: Catellos;
-        margin-left: 50px;
+    text-align: justify;
+    width: 80vw;
 }
 #autor3{
     color: white;
-    height: auto;
-    width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    text-align: justify;
+    font-family: Catellos;
+    width: 80vw;
 }
-.Contfoto{
+
+#Nieves{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    /* flex-wrap: wrap;
-    justify-items: flex-start;
-    justify-content: left;
-    width: 100%; */
+    align-items: center;
+    gap: 10px;
 }
-#fArt{
-    width: 400px;
-    height: auto;
+#Eva {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 #Saúl{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.DescArt{
-    display: grid;
-    justify-content: left;
-    align-content: left;
-    width: auto;
-    height: auto;
-}
+
 footer{
     height: 10vw;
     width: 100vw;
-    background: black;
+    color:white;
     display: block;
     flex-wrap: wrap;
     align-items: center;
-    font-size: 8px;
+    font-size: 9px;
 }
 #footerdiv{
     display: flex;
@@ -162,6 +186,6 @@ footer{
 }
 h5{
     text-align: center;
-    background-color: black;
+   color:white;
+   font-size: 13px;
 }
-
