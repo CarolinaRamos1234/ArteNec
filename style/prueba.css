@@ -1,0 +1,204 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+    color: white
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+/* Estilos especÃ­ficos */
+
+header {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.artistas {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+        font-family: Catellos;
+        text-align: justify;
+        width: 80vw;
+    }
+
+#art01 {
+   
+        text-align: justify;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        width: 80vw;
+}
+.Nievesg{
+    display: flex;
+        align-items: center;
+        gap: 10px;
+}
+.Evag {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#art02 {
+    display: flex;
+        align-items: center;
+        gap: 10px;
+        }
+
+#art03 {
+    display: flex;
+        align-items: center;
+        gap: 10px;
+}
+
+/* .artistas ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: green;
+}
+
+.artistas ul li {
+    display: flex;
+    margin: 10px;
+}
+
+.artistas ul li a {
+    display: flex;
+}
+
+.artistas ul li img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.artistas ul li h3 {
+    margin-top: 10px;
+    text-align: center;
+} */
+
+.cuadros {
+    margin: 10px 0;
+    display: flex;
+}
+
+#imgmain {
+    width: 80vw;
+    height: 80vh;
+    justify-content: center;
+}
+
+.cuadros ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cuadros ul li {
+    display: flex;
+    margin: 10px;
+}
+
+.cuadros ul li img {
+    width: 200px;
+    height: 200px;
+}
+
+.cuadros ul li h3 {
+    margin-top: 10px;
+}
+
+.cuadros ul li p {
+    margin-top: 5px;
+}
+
+.cuadros ul li button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: rgb(106, 24, 24);
+    border: none;
+    cursor: pointer;
+}
+
+.carrito {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #691616;
+}
+
+.carrito h2 {
+    text-align: center;
+}
+
+.carrito ul.lista-productos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.carrito ul.lista-productos li {
+    border-bottom: 1px solid #110464;
+    padding: 10px;
+}
+
+.carrito ul.lista-productos li img {
+    width: 50px;
+    height: 50px;
+}
+
+.carrito ul.lista-productos li h3 {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.carrito ul.lista-productos li p {
+    margin-top: 5px;
+    display: inline-block;
+    float: right;
+}
+
+.carrito .total {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.carrito button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: rgb(232, 178, 178);
+    border: none;
+    cursor: pointer;
+}
+
+.carrito button.vaciar-carrito {
+    float: left;
+}
+
+.carrito button.finalizar-compra {
+    float: right;
+}
