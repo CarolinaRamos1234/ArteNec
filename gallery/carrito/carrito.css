@@ -285,7 +285,7 @@ header {
     cursor: pointer;
 }
 
-footer {
+.foo{
     height: 10vh;
     width: 100vw;
     color: white;

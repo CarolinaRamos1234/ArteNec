@@ -87,16 +87,18 @@ h1{
     font-size: 50px;
 }
 p{
-    font-size: 25px;
+    font-size: 15px;
+    margin: 50px;
 }
 
 #logfor{
+    margin-left: 1000px;
     display: flex;
     justify-content: center;
     gap: 20px;
-
 }
 .Contfoto {
+    height: 400px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -135,9 +137,19 @@ header{
 .boton{
     color: red
 }
-footer {
+.foo{
     height: 10vh;
-    width: 100vw;
+    width: 1000px;
+    color: white;
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 9px;
+}
+
+.footer {
+    height: 10vh;
+    width: 1000px;
     color: white;
     display: block;
     flex-wrap: wrap;
@@ -148,11 +160,18 @@ footer {
 #footerdiv {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+
 }
 
 h5 {
     text-align: center;
     color: white;
     font-size: 13px;
+}
+
+.espacio{
+    height: 50px
+}
+h3{
+    font-size: 15px;
 }
