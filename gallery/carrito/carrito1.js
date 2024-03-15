@@ -1,14 +1,6 @@
-// const boton = document.querySelector(contiene productos)
-// const containerCarProducto = document.querySelector(contenedor carro)
-// boton.addEventListener("click", () => {
-//     containerCarProducto.classList.toggle(nombre clase)
-// })
-
-// const carInfo = document.querySelector
-
-const btnCart = document.querySelector('.carrito');
+const btnCart = document.querySelector('.container-cart-icon');
 const containerCartProducts = document.querySelector(
-    '.carrito2'
+    '.container-cart-products'
 );
 
 btnCart.addEventListener('click', () => {
@@ -130,6 +122,8 @@ const showHTML = () => {
         totalOfProducts = totalOfProducts + product.quantity;
     });
 
-    valorTotal.innerText = `$${total} €`;
+    valorTotal.innerText = $${ total };
     countProducts.innerText = totalOfProducts;
 };
+
+
