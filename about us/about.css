@@ -4,6 +4,7 @@ body {
     background-color: black;
     font-family: Catellos;
 }
+
 #cabecera {
     height: 5vw;
     width: 100vw;
@@ -31,16 +32,6 @@ body {
     font-family: Catellos;
 }
 
-.tlf {
-    height: 5vw;
-    width: 15vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-    font-family: Catellos;
-}
-
 .email {
     display: flex;
     justify-content: space-between;
@@ -50,9 +41,9 @@ body {
 }
 
 .about {
-    width: 80px;
+    width: 100px;
     height: auto;
-    margin-left: 90px;
+    margin-left: 100px;
     font-family: Catellos;
     color: white;
 
@@ -62,23 +53,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 130px;
+    margin-left: 120px;
     font-family: Catellos;
 
 }
 
 .cuenta {
+    width: 150px;
+    height: auto;
     display: flex;
-    justify-content: right;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 100px;
     font-family: Catellos;
 }
 
 .carrito {
+    width: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 
 }
 
@@ -88,46 +82,52 @@ body {
     justify-content: space-between;
 }
 
-#imgmain {
-    width: 100vw;
-    height: 65vw;
-    justify-content: center;
-    
-}
-.container{
-    width: 100vw;
-    height: 30vW;
-    display: flex;
-}
-.fotologo{
 
+#logo {
+    width: 20vw;
+    height: auto;
+    margin-bottom: 3%;
+    margin-left: 10%;
 }
-
-.textoabout{
-    color:white;
+.tAbout {
+    color: rgb(237, 192, 237);
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#sobreNosotros {
+    color: white;
     font-family: Catellos;
-    font-size: large;
+    text-align: justify;
+    margin-bottom: 40px;
+    width: 80vw;
 }
-
+#Info {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
 
 footer {
-    height: 10vw;
+    height: 20vw;
     width: 100vw;
     color: white;
     display: block;
     flex-wrap: wrap;
     align-items: center;
-    font-size: 8px;
+    font-size: 9px;
+        position: fixed;
+        bottom: 0;
 }
 
 #footerdiv {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 40px;
 }
 
 h5 {
     text-align: center;
     color: white;
+    font-size: 13px;
 }
-
